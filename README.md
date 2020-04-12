@@ -1,2 +1,0 @@
-# JanovaPrototype
-Created with CodeSandbox

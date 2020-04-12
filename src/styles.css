@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.mainApp {
+  width: 100%;
+}
+#root {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.jo-progress {
+  position: absolute;
+  float: right;
+  align-items: center;
+  justify-content: center;
+}
+.WinValue {
+  position: absolute;
+  top: 50px;
+  color: #0f54f0;
+  font-weight: bold;
+}
+.LossValue {
+  position: absolute;
+  top: 165px;
+  color: rgb(104, 104, 104);
+  font-weight: bold;
+}
+.MatchesWonPercent {
+  font-size: 5rem;
+}
+.MatchPeriod {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.lastGames {
+  max-height: 200px;
+}
